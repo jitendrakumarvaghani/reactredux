@@ -1,0 +1,43 @@
+.content {
+  margin: 100px auto auto auto;
+  min-height: calc(100vh - (180px));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-size: contain;
+  background-image: url('./../images/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  h1 {
+    text-align: center;
+    color: $primary-color;
+    font-weight: bold;
+  }
+  .btn {
+    padding: 16px 42px;
+  }
+}
+
+.vertical-center {
+  display: flex !important;
+  height: 100%;
+  align-items: center;
+}
+
+.modal-content {
+  text-align: center;
+}
+
+@media #{$tablet-vertical} {
+  .content {
+    h3 {
+      text-align: center;
+    }
+  }
+  .modal-dialog {
+    width: 300px !important;
+    margin: 0 auto !important;
+  }
+}

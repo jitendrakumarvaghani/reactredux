@@ -1,0 +1,26 @@
+.header {
+  position: fixed;
+  height: 100px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  font-weight: 900;
+  color: $primary-color;
+  padding: 10px 0;
+  .dflex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .logo {
+    background: url('./../images/logo.png');
+    background-size: 100% auto;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .title {
+    font-size: 3rem;
+    padding-left: 20px;
+  }
+}
